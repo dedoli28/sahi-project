@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Ortam / gizli bilgiler
+.env
+
+# Veri ve model dosyaları (büyük dosyaları repoya eklemeyin)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Editör / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
